@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+   Created on : Oct 6, 2021, 12:10:20 AM
+    Author     : DINHDAT
+*/
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.ques-item{
+    justify-content:space-between;
+    padding: 0;
+
+}
+
+.number-question{
+    margin-left: 5px;
+}
+.date-created{
+    margin-right: 115px; 
+}
+
+.left{
+    flex:3;
+}
+
+.right{
+    flex:2;
+}
+
+.delete{
+    color: red;
+    font-size: 15px;
+}
+.edit{
+    color: blue;
+    font-size: 15px;
+}
+.main-container{
+
+    height: 520px;
+    max-height: 520px;
+    margin-bottom: 0px;
+}
+
+.pagination-container{
+    margin: auto;
+
+}
+.pagination{
+    display: flex;
+    width: 50%;
+    list-style: none;
+    margin:0 auto;
+    padding: 0px;
+    justify-content: center;
+
+}
+.page-item{
+    padding: 0;
+    border: solid 2px #62584d;
+}
+.page-link{
+    font-size: 15px;
+    font-weight: 600;
+    color: #62584d;
+}
+.page-item-active{
+    background-color:  #62584d;
+
+}
+.page-link-active{
+    color: white;
+}
